@@ -1,0 +1,613 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L UDN2981:UDN2981 U3
+U 1 1 5EC8A8F0
+P 3900 2100
+F 0 "U3" H 3900 2870 50  0000 C CNN
+F 1 "UDN2981" H 3900 2779 50  0000 C CNN
+F 2 "eldan_imported_footprints:DIP254P762X533-18" H 3900 2100 50  0001 L BNN
+F 3 "ALLEGRO MICROSYSTEMS" H 3900 2100 50  0001 L BNN
+F 4 "PDIP-18" H 3900 2100 50  0001 L BNN "Field4"
+F 5 "UDN2981" H 3900 2100 50  0001 L BNN "Field5"
+F 6 "1193495" H 3900 2100 50  0001 L BNN "Field6"
+F 7 "31K7841" H 3900 2100 50  0001 L BNN "Field7"
+	1    3900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC595 U5
+U 1 1 5ECBA510
+P 4600 6800
+F 0 "U5" V 4554 7444 50  0000 L CNN
+F 1 "74HC595" V 4645 7444 50  0000 L CNN
+F 2 "eldan_imported_footprints:DIP254P762X420-16" H 4600 6800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4600 6800 50  0001 C CNN
+	1    4600 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5ECBF75C
+P 1150 1000
+F 0 "#PWR0101" H 1150 850 50  0001 C CNN
+F 1 "VCC" H 1165 1173 50  0000 C CNN
+F 2 "" H 1150 1000 50  0001 C CNN
+F 3 "" H 1150 1000 50  0001 C CNN
+	1    1150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5ECC09AC
+P 1400 3600
+F 0 "#PWR0102" H 1400 3350 50  0001 C CNN
+F 1 "GND" H 1405 3427 50  0000 C CNN
+F 2 "" H 1400 3600 50  0001 C CNN
+F 3 "" H 1400 3600 50  0001 C CNN
+	1    1400 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2400 4700 2400
+Wire Wire Line
+	4700 2400 4700 4100
+Text GLabel 3200 2800 0    50   Input ~ 0
+GND
+Text GLabel 1350 1200 0    50   Input ~ 0
+GND
+$Comp
+L 74HC165N:74HC165N U2
+U 1 1 5EC8FB0F
+P 9950 4500
+F 0 "U2" V 9996 3367 50  0000 R CNN
+F 1 "74HC165N" V 9905 3367 50  0000 R CNN
+F 2 "eldan_imported_footprints:DIP254P762X420-16" H 9950 4500 50  0001 L BNN
+F 3 "NXP" H 9950 4500 50  0001 L BNN
+F 4 "DIP-16" H 9950 4500 50  0001 L BNN "Field4"
+F 5 "07WX3688" H 9950 4500 50  0001 L BNN "Field5"
+F 6 "380635" H 9950 4500 50  0001 L BNN "Field6"
+F 7 "74HC165N" H 9950 4500 50  0001 L BNN "Field7"
+	1    9950 4500
+	1    0    0    -1  
+$EndComp
+Text GLabel 4600 4500 1    50   Input ~ 0
+GND
+Text GLabel 4600 6100 2    50   Input ~ 0
+GND
+Text GLabel 9250 5400 0    50   Input ~ 0
+GND
+Text GLabel 3200 1700 0    50   Input ~ 0
+VCC
+Text GLabel 2650 1200 2    50   Input ~ 0
+VCC
+Text GLabel 4600 5800 2    50   Input ~ 0
+VCC
+Text GLabel 9250 3800 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	4600 2300 4800 2300
+Wire Wire Line
+	4800 2300 4800 4000
+Wire Wire Line
+	4600 2200 4900 2200
+Wire Wire Line
+	4600 2100 5000 2100
+Wire Wire Line
+	5000 2100 5000 3800
+Wire Wire Line
+	4900 2200 4900 3900
+Wire Wire Line
+	4600 2000 5100 2000
+Wire Wire Line
+	4600 1900 5200 1900
+Wire Wire Line
+	5200 1900 5200 3600
+Wire Wire Line
+	4600 1800 5300 1800
+Wire Wire Line
+	5300 1800 5300 3500
+Wire Wire Line
+	4600 1700 5400 1700
+Wire Wire Line
+	5400 1700 5400 3400
+Wire Wire Line
+	4700 4100 2300 4100
+Wire Wire Line
+	4800 4000 2200 4000
+Wire Wire Line
+	4900 3900 2100 3900
+Wire Wire Line
+	5100 2000 5100 3700
+Wire Wire Line
+	5000 3800 2000 3800
+Wire Wire Line
+	5100 3700 1900 3700
+Wire Wire Line
+	5200 3600 1800 3600
+Wire Wire Line
+	5300 3500 1700 3500
+Wire Wire Line
+	5400 3400 1600 3400
+Wire Wire Line
+	3350 5950 4200 5950
+Wire Wire Line
+	4200 5950 4200 5600
+Wire Wire Line
+	3350 5800 4150 5800
+Wire Wire Line
+	4150 5800 4150 5500
+Wire Wire Line
+	4150 5500 4200 5500
+Wire Wire Line
+	3350 5650 4100 5650
+Wire Wire Line
+	4100 5650 4100 5400
+Wire Wire Line
+	4100 5400 4200 5400
+Wire Wire Line
+	3350 5500 4050 5500
+Wire Wire Line
+	4050 5500 4050 5300
+Wire Wire Line
+	4050 5300 4200 5300
+Wire Wire Line
+	3350 4900 4200 4900
+Wire Wire Line
+	3350 5350 4000 5350
+Wire Wire Line
+	4000 5350 4000 5200
+Wire Wire Line
+	4000 5200 4200 5200
+Wire Wire Line
+	3350 5200 3950 5200
+Wire Wire Line
+	3950 5200 3950 5100
+Wire Wire Line
+	3950 5100 4200 5100
+Wire Wire Line
+	3350 5050 3900 5050
+Wire Wire Line
+	3900 5050 3900 5000
+Wire Wire Line
+	3900 5000 4200 5000
+Wire Wire Line
+	3350 7550 4200 7550
+Wire Wire Line
+	3350 7400 4150 7400
+Wire Wire Line
+	4150 7400 4150 7100
+Wire Wire Line
+	4150 7100 4200 7100
+Wire Wire Line
+	3350 7250 4100 7250
+Wire Wire Line
+	4100 7250 4100 7000
+Wire Wire Line
+	4100 7000 4200 7000
+Wire Wire Line
+	3350 7100 4050 7100
+Wire Wire Line
+	4050 7100 4050 6900
+Wire Wire Line
+	4050 6900 4200 6900
+Wire Wire Line
+	3350 6500 4200 6500
+Wire Wire Line
+	3350 6950 4000 6950
+Wire Wire Line
+	4000 6950 4000 6800
+Wire Wire Line
+	4000 6800 4200 6800
+Wire Wire Line
+	3350 6800 3950 6800
+Wire Wire Line
+	3950 6800 3950 6700
+Wire Wire Line
+	3950 6700 4200 6700
+Wire Wire Line
+	3350 6650 3900 6650
+Wire Wire Line
+	3900 6650 3900 6600
+Wire Wire Line
+	3900 6600 4200 6600
+$Comp
+L 74xx:74HC595 U4
+U 1 1 5EC81A76
+P 4600 5200
+F 0 "U4" V 4554 5844 50  0000 L CNN
+F 1 "74HC595" V 4645 5844 50  0000 L CNN
+F 2 "eldan_imported_footprints:DIP254P762X420-16" H 4600 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4600 5200 50  0001 C CNN
+	1    4600 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 7550 4200 7200
+Wire Wire Line
+	2450 1600 2450 2600
+Wire Wire Line
+	2450 2600 3200 2600
+Wire Wire Line
+	2350 1600 2350 2500
+Wire Wire Line
+	2350 2500 3200 2500
+Wire Wire Line
+	2250 1600 2250 2400
+Wire Wire Line
+	2250 2400 3200 2400
+Wire Wire Line
+	2150 1600 2150 2300
+Wire Wire Line
+	2150 2300 3200 2300
+Wire Wire Line
+	2050 2200 3200 2200
+Wire Wire Line
+	1950 1600 1950 2100
+Wire Wire Line
+	1950 2100 3200 2100
+Wire Wire Line
+	1850 1600 1850 2000
+Wire Wire Line
+	1850 2000 3200 2000
+Wire Wire Line
+	1750 1600 1750 1900
+Wire Wire Line
+	1750 1900 3200 1900
+$Sheet
+S 2350 4800 1000 2800
+U 5ECE1278
+F0 "LedMatrix" 50
+F1 "LedMatrix.sch" 50
+F2 "LedR1" I L 2350 5050 50 
+F3 "LedR2" I L 2350 5200 50 
+F4 "LedR3" I L 2350 5350 50 
+F5 "LedR4" I L 2350 5500 50 
+F6 "LedR5" I L 2350 5650 50 
+F7 "LedR6" I L 2350 5800 50 
+F8 "LedR7" I L 2350 5950 50 
+F9 "LedR0" I L 2350 4900 50 
+F10 "LedRC0" I R 3350 6500 50 
+F11 "LedGC0" I R 3350 4900 50 
+F12 "LedRC1" I R 3350 6650 50 
+F13 "LedGC1" I R 3350 5050 50 
+F14 "LedRC2" I R 3350 6800 50 
+F15 "LedGC2" I R 3350 5200 50 
+F16 "LedRC3" I R 3350 6950 50 
+F17 "LedGC3" I R 3350 5350 50 
+F18 "LedRC4" I R 3350 7100 50 
+F19 "LedGC4" I R 3350 5500 50 
+F20 "LedRC5" I R 3350 7250 50 
+F21 "LedGC5" I R 3350 5650 50 
+F22 "LedRC6" I R 3350 7400 50 
+F23 "LedGC6" I R 3350 5800 50 
+F24 "LedRC7" I R 3350 7550 50 
+F25 "LedGC7" I R 3350 5950 50 
+$EndSheet
+Wire Wire Line
+	1600 3400 1600 5950
+Wire Wire Line
+	1600 5950 2350 5950
+Wire Wire Line
+	1700 3500 1700 5800
+Wire Wire Line
+	1700 5800 2350 5800
+Wire Wire Line
+	1800 3600 1800 5650
+Wire Wire Line
+	1800 5650 2350 5650
+Wire Wire Line
+	1900 3700 1900 5500
+Wire Wire Line
+	1900 5500 2350 5500
+Wire Wire Line
+	2000 3800 2000 5350
+Wire Wire Line
+	2000 5350 2350 5350
+Wire Wire Line
+	2100 3900 2100 5200
+Wire Wire Line
+	2100 5200 2350 5200
+Wire Wire Line
+	2200 4000 2200 5050
+Wire Wire Line
+	2200 5050 2350 5050
+Wire Wire Line
+	2300 4100 2300 4900
+Wire Wire Line
+	2300 4900 2350 4900
+Text GLabel 4600 7400 3    50   Input ~ 0
+VCC
+Text GLabel 2450 800  1    50   Input ~ 0
+RLDS
+Text GLabel 1850 800  0    50   Input ~ 0
+GND
+Text GLabel 2150 800  1    50   Input ~ 0
+VCC
+Text GLabel 2250 800  1    50   Input ~ 0
+SHCLK
+Text GLabel 1950 800  1    50   Input ~ 0
+RCLK
+Wire Wire Line
+	2050 1600 2050 2200
+$Comp
+L 74xx:74HC595 U1
+U 1 1 5EC800CF
+P 2050 1200
+F 0 "U1" V 2004 1844 50  0000 L CNN
+F 1 "74HC595" V 2095 1844 50  0000 L CNN
+F 2 "eldan_imported_footprints:DIP254P762X420-16" H 2050 1200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2050 1200 50  0001 C CNN
+	1    2050 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Female J1
+U 1 1 5F426585
+P 6600 1850
+F 0 "J1" H 6628 1826 50  0000 L CNN
+F 1 "LOLIN1" H 6628 1735 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 6600 1850 50  0001 C CNN
+F 3 "~" H 6600 1850 50  0001 C CNN
+	1    6600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x16_Female J2
+U 1 1 5F4317EF
+P 8050 2050
+F 0 "J2" H 8078 2026 50  0000 L CNN
+F 1 "LOLIN2" H 8078 1935 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 8050 2050 50  0001 C CNN
+F 3 "~" H 8050 2050 50  0001 C CNN
+	1    8050 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 1350 0    50   Input ~ 0
+GND
+Text GLabel 7850 1450 0    50   Input ~ 0
+VCC
+Text GLabel 7850 2250 0    50   Input ~ 0
+SWDAT
+Text GLabel 7850 2350 0    50   Input ~ 0
+SWCLK
+Text GLabel 7850 2450 0    50   Input ~ 0
+SWSL
+Text GLabel 6400 1250 0    50   Input ~ 0
+RLDS
+Text GLabel 6400 1350 0    50   Input ~ 0
+LCLK
+Text GLabel 6400 1450 0    50   Input ~ 0
+RCLK
+Text GLabel 6400 1550 0    50   Input ~ 0
+SHCLK
+Text GLabel 5000 7200 2    50   Input ~ 0
+RLDS
+Text GLabel 5000 6600 2    50   Input ~ 0
+GND
+Text GLabel 5000 6900 2    50   Input ~ 0
+VCC
+Text GLabel 5000 7000 2    50   Input ~ 0
+SHCLK
+Text GLabel 5000 6700 2    50   Input ~ 0
+LCLK
+Text GLabel 5000 5400 2    50   Input ~ 0
+SHCLK
+Text GLabel 5000 5300 2    50   Input ~ 0
+VCC
+Text GLabel 5000 5100 2    50   Input ~ 0
+LCLK
+Text GLabel 5000 5000 2    50   Input ~ 0
+GND
+Wire Wire Line
+	4200 6300 4200 6050
+Wire Wire Line
+	4200 6050 4400 6050
+Wire Wire Line
+	4400 6050 4400 6000
+Wire Wire Line
+	4400 6000 5250 6000
+Wire Wire Line
+	5250 6000 5250 5600
+Wire Wire Line
+	5250 5600 5000 5600
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5F48F023
+P 9250 1500
+F 0 "J3" H 9330 1492 50  0000 L CNN
+F 1 "OLED" H 9330 1401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 9250 1500 50  0001 C CNN
+F 3 "~" H 9250 1500 50  0001 C CNN
+	1    9250 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 9050 1400 0    50   Input ~ 0
+GND
+Text GLabel 6400 2450 0    50   Input ~ 0
+SCL
+Text GLabel 6400 2350 0    50   Input ~ 0
+SDA
+Text GLabel 9050 1600 0    50   Input ~ 0
+SCL
+Text GLabel 9050 1700 0    50   Input ~ 0
+SDA
+Text GLabel 6400 1650 0    50   Input ~ 0
+3V3
+Text GLabel 9050 1500 0    50   Input ~ 0
+3V3
+$Sheet
+S 6650 4900 800  900 
+U 5F4A4351
+F0 "SwitchMatrix" 50
+F1 "SwitchMatrix.sch" 50
+F2 "SwR1" I L 6650 5050 50 
+F3 "SwR3" I L 6650 5250 50 
+F4 "SwR4" I L 6650 5350 50 
+F5 "SwR6" I L 6650 5550 50 
+F6 "SwR7" I L 6650 5650 50 
+F7 "SwR0" I L 6650 4950 50 
+F8 "SwC1" I R 7450 5050 50 
+F9 "SwC2" I R 7450 5150 50 
+F10 "SwC3" O R 7450 5250 50 
+F11 "SwC4" I R 7450 5350 50 
+F12 "SwC5" I R 7450 5450 50 
+F13 "SwC6" I R 7450 5550 50 
+F14 "SwC7" I R 7450 5650 50 
+F15 "SwC0" I R 7450 4950 50 
+F16 "SwR2" I L 6650 5150 50 
+F17 "SwR5" I L 6650 5450 50 
+F18 "SwRC" I L 6650 5750 50 
+$EndSheet
+Wire Wire Line
+	4700 4100 6550 4100
+Wire Wire Line
+	6550 4100 6550 4950
+Wire Wire Line
+	6550 4950 6650 4950
+Connection ~ 4700 4100
+Wire Wire Line
+	4800 4000 4800 4200
+Wire Wire Line
+	4800 4200 6450 4200
+Wire Wire Line
+	6450 4200 6450 5050
+Wire Wire Line
+	6450 5050 6650 5050
+Connection ~ 4800 4000
+Wire Wire Line
+	4900 3900 4900 4300
+Wire Wire Line
+	4900 4300 6350 4300
+Wire Wire Line
+	6350 4300 6350 5150
+Wire Wire Line
+	6350 5150 6650 5150
+Connection ~ 4900 3900
+Wire Wire Line
+	5000 3800 5000 4400
+Wire Wire Line
+	5000 4400 6250 4400
+Connection ~ 5000 3800
+Wire Wire Line
+	6250 5250 6650 5250
+Wire Wire Line
+	6250 4400 6250 5250
+Wire Wire Line
+	5100 3700 5100 4500
+Wire Wire Line
+	5100 4500 6150 4500
+Wire Wire Line
+	6150 4500 6150 5350
+Wire Wire Line
+	6150 5350 6650 5350
+Connection ~ 5100 3700
+Wire Wire Line
+	5200 3600 5200 4600
+Wire Wire Line
+	5200 4600 6050 4600
+Wire Wire Line
+	6050 4600 6050 5450
+Wire Wire Line
+	6050 5450 6650 5450
+Connection ~ 5200 3600
+Wire Wire Line
+	5300 3500 5300 4700
+Wire Wire Line
+	5300 4700 5950 4700
+Wire Wire Line
+	5950 4700 5950 5550
+Wire Wire Line
+	5950 5550 6650 5550
+Connection ~ 5300 3500
+Wire Wire Line
+	5400 3400 5400 4800
+Wire Wire Line
+	5400 4800 5850 4800
+Wire Wire Line
+	5850 4800 5850 5650
+Wire Wire Line
+	5850 5650 6650 5650
+Connection ~ 5400 3400
+Wire Wire Line
+	7450 4950 7550 4950
+Wire Wire Line
+	7550 4950 7550 4500
+Wire Wire Line
+	7550 4500 9250 4500
+Wire Wire Line
+	7450 5050 7650 5050
+Wire Wire Line
+	7650 5050 7650 4600
+Wire Wire Line
+	7650 4600 9250 4600
+Wire Wire Line
+	7450 5150 7750 5150
+Wire Wire Line
+	7750 5150 7750 4700
+Wire Wire Line
+	7750 4700 9250 4700
+Wire Wire Line
+	7450 5250 7850 5250
+Wire Wire Line
+	7850 5250 7850 4800
+Wire Wire Line
+	7850 4800 9250 4800
+Wire Wire Line
+	7450 5350 7950 5350
+Wire Wire Line
+	7950 5350 7950 4900
+Wire Wire Line
+	7950 4900 9250 4900
+Wire Wire Line
+	7450 5450 8050 5450
+Wire Wire Line
+	8050 5450 8050 5000
+Wire Wire Line
+	8050 5000 9250 5000
+Wire Wire Line
+	7450 5550 8150 5550
+Wire Wire Line
+	8150 5550 8150 5100
+Wire Wire Line
+	8150 5100 9250 5100
+Wire Wire Line
+	7450 5650 8250 5650
+Wire Wire Line
+	8250 5650 8250 5200
+Wire Wire Line
+	8250 5200 9250 5200
+Text GLabel 9250 4000 0    50   Input ~ 0
+SWSL
+Text GLabel 9250 4100 0    50   Input ~ 0
+SWCLK
+Text GLabel 9250 4200 0    50   Input ~ 0
+GND
+Text GLabel 10650 3800 2    50   Input ~ 0
+SWDAT
+Text GLabel 9250 4300 0    50   Input ~ 0
+GND
+Text GLabel 7850 1850 0    50   Input ~ 0
+SWRCP
+$Sheet
+S 7250 3400 700  800 
+U 5EF5EEDB
+F0 "ControlPanelSwitches" 50
+F1 "ControlPanelSwitches.sch" 50
+$EndSheet
+Text GLabel 6650 5750 0    50   Input ~ 0
+SWRCP
+$EndSCHEMATC
